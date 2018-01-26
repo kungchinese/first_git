@@ -53,10 +53,12 @@ In this section, you will need to provide some form of visualization that summar
 - _If a plot is provided, are the axes, title, and datum clearly defined?_
 
 ### Algorithms and Techniques
-The Bagging Regressor is chosen in this case with KNN as weaker leanear. Model is trained to predict the t 5 day after return. KNN is an instance based method which would not cost lots of resources at train stage but take significant resources at prediction stage. The K for each weak learner needs to be defined to prevent from overfitting the data. 
-The main hyper parameter for tuning KNN based Bagging Regressor:
---	Number of K
---  Number of Bagging
+The Bagging Regressor is applied in this case with K-Nearest Neighbor (KNN for short) as weaker learner. Model is trained to predict the 5 days after return. The 5 days after return is compute as following:
+KNN is an instance based method which would not cost lots of resources at train stage. However, it takes significant resources at prediction stage. Bagging then takes average of N weak learner as an Ensemble learner. As list below, the number of K for each weak learner and the number of weak learner for Bagging needs to be optimized to prevent from overfitting the data. 
+The main hyper parameter for optimizing KNN based Bagging Regressor:
+**	Number of K
+**	Number of Bagging
+
 
 
 In this section, you will need to discuss the algorithms and techniques you intend to use for solving the problem. You should justify the use of each one based on the characteristics of the problem and the problem domain. Questions to ask yourself when writing this section:
