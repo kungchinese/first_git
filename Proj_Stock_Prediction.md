@@ -67,7 +67,7 @@ In this section, you will need to discuss the algorithms and techniques you inte
 - _Is it made clear how the input data or datasets will be handled by the algorithms and techniques chosen?_
 
 ### Benchmark
-Trading strategy is provided here to see the performance of our model. Give a simple strategy model as benchmark to our model. 
+Trading strategy is provided here to see the performance of our model. Give a simple strategy model and calculate its performance. Then setup another strategy which based on the prediction of our model for 10 days after.
 
 In this section, you will need to provide a clearly defined benchmark result or threshold for comparing across performances obtained by your solution. The reasoning behind the benchmark (in the case where it is not an established result) should be discussed. Questions to ask yourself when writing this section:
 - _Has some result or value been provided that acts as a benchmark for measuring performance?_
